@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Mock Front Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="website.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+
+            <div class="nav-address border">
+                <p class="deliver">Deliver to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="India">India</p>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <select class="search-select">
+                    <option>All</option>
+                </select>
+               <input placeholder="Search any item here!" class="search-input">
+               <div class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+               </div>
+            </div>
+
+            <div class="nav-singin border">
+                <p><span>Sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+            <div class="nav-singin border">
+                <p><span>Returns</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping cart"></i>
+                <span id="cartCounter">0</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero / Banner -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Shop for the Latest Deals on Electronics, Fashion, Food and more!</h1>
+                <p>Fast Delivery • Great Prices • Trusted Brands</p>
+                <a class="cta-btn" href="#products">Shop Now</a>
+            </div>
+        </section>
+
+      <!-- Categories -->
+        <section class="categories">
+            <div class="category-card">
+                <img src="https://microless.com/cdn/products/d1ed09a7f571d729f8a61855e983bacf-md.jpg" alt="Mobile phones">
+                <h3>Mobiles</h3>
+            </div>
+
+            <div class="category-card">
+                <img src="https://images.unsplash.com/photo-1651241680016-cc9e407e7dc3?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXBwbGUlMjBsYXB0b3B8ZW58MHx8MHx8fDA%3D" alt="Laptops">
+                <h3>Laptops</h3>
+            </div>
+
+            <div class="category-card">
+                <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRJwB3M6FPPS5ApBe-YfAMlatL0MByJdaiddpXzaQMu0QSq379Fhy-ESnk9v8wK_Fmj_dlzuD9g7vO1HiRUAwL89Jnj84BoZ6n-pCfAKqxgnlTYsIZNXXDW" alt="Fashion">
+                <h3>Fashion</h3>
+            </div>
+
+            <div class="category-card">
+                <img src="https://media.gettyimages.com/id/458413277/photo/american-grocery-collection.jpg?s=612x612&w=gi&k=20&c=3hHyE2O-xsPENzm0GQ2C3jzqABEBPc66Z0ZDfggFmg4=" alt="Food">
+                <h3>Food</h3>
+            </div>
+        </section>
+
+        <!-- Product Grid -->
+        <section id="products" class="product-grid">
+
+            <!-- Product Card - Mobile -->
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=900&q=80" alt="Smartphone">
+                <div class="product-info">
+                    <h4>Smartphone 5G - 6GB;128GB</h4>
+                    <p class="price">₹15,999</p>
+                    <p class="rating">★★★★☆ (4.3)</p>
+                    <button class="btn add-to-cart" data-name="Smartphone">Add to Cart</button>
+                </div>
+            </article>
+
+            <!-- Product Card - Laptop -->
+            <article class="product-card">
+                <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=80" alt="Alienbook">
+                <div class="product-info">
+                    <h4>Alienbook i5-13th; 8GB RAM; 512GB Storage</h4>
+                    <p class="price">₹55,990</p>
+                    <p class="rating">★★★★★ (4.6)</p>
+                    <button class="btn add-to-cart" data-name="Alienbook">Add to Cart</button>
+                </div>
+            </article>
+
+            
+            <!-- Product Card - Fashion -->
+<article class="product-card">
+    <img src="https://www.frankshop.in/cdn/shop/files/53-Copy.jpg?v=1689189872" alt="Fashion">
+    <div class="product-info">
+        <h4>Mens Shirt</h4>
+        <p class="price">₹1,499</p>
+        <p class="rating">★★★★☆ (4.2)</p>
+        <button class="btn add-to-cart" data-name="Fashion">Add to Cart</button>
+    </div>
+</article>
+
+<!-- Product Card - Food -->
+<article class="Food">
+    <img src="https://rukminim2.flixcart.com/image/180/240/xif0q/spice-masala/v/g/u/belgiri-bealgiri-bael-phal-dry-aegle-marmelos-wood-apple-box-jmn-original-imagrt3jqvzhwg2v.jpeg?q=90" alt="Food">
+    <div class="product-info">
+        <h4>Food & Refreshment</h4>
+        <p class="price">₹899</p>
+        <p class="rating">★★★★☆ (4.1)</p>
+        <button class="btn add-to-cart" data-name="Food">Add to Cart</button>
+    </div>
+</article>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p>&copy; 2026 Flipkart Mockup · For demo purposes only</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple Add to Cart behavior (client-only)
+        const cartButtons = document.querySelectorAll('.add-to-cart');
+        let cartCount = 0;
+
+        cartButtons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                cartCount += 1;
+                btn.textContent = 'Added';
+                btn.disabled = true;
+                document.getElementById('cartCounter').textContent = cartCount;
+            });
+        });
+    </script>
+</body>
+</html>
